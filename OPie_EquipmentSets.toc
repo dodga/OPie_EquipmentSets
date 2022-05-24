@@ -3,11 +3,14 @@
 ## Title: OPie - Equipment Sets
 ## Author: dodga
 ## Version: 1
+## Notes: An automatic OPie ring with your equipment manager sets
+
+## X-Website: https://github.com/dodga/OPie_EquipmentSets
+## X-WoWI-ID: 26327
+## X-Wago-ID: q96ddE6O
 
 ## DefaultState: Enabled
-## LoadOnDemand: 0
 ## RequiredDeps: OPie
-
-## LoadManagers: AddonLoader
+## LoadOnDemand: 0
 
 opie_es.lua
