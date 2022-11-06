@@ -1,5 +1,5 @@
-local R = OneRingLib and OneRingLib.ext and OneRingLib.ext.RingKeeper
-if not (R and R.SetRing) then return end
+local R = OPie.CustomRings
+if not (R and R.AddDefaultRing) then return end
 
 local OpieEquipmentSets = {}
 
@@ -23,7 +23,7 @@ local function OpieEquipmentSets_RebuildRing()
 		table.insert(ring, {"equipmentset", name})
 	end
 
-	R:SetRing("EquipmentSets", ring)
+	R:AddDefaultRing("EquipmentSets", ring)
 end
 
 OpieEquipmentSets.eventHandler = CreateFrame("Frame")

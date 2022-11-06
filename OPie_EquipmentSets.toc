@@ -1,8 +1,8 @@
-## Interface: 90205
+## Interface: 100000
 
 ## Title: OPie - Equipment Sets
 ## Author: dodga
-## Version: 1
+## Version: 2
 ## Notes: An automatic OPie ring with your equipment manager sets
 
 ## X-Website: https://github.com/dodga/OPie_EquipmentSets
