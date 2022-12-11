@@ -2,7 +2,7 @@
 
 ## Title: OPie - Equipment Sets
 ## Author: dodga
-## Version: 2
+## Version: 3
 ## Notes: An automatic OPie ring with your equipment manager sets
 
 ## X-Website: https://github.com/dodga/OPie_EquipmentSets

@@ -23,7 +23,7 @@ local function OpieEquipmentSets_RebuildRing()
 		table.insert(ring, {"equipmentset", name})
 	end
 
-	R:AddDefaultRing("EquipmentSets", ring)
+	R:SetExternalRing("EquipmentSets", ring)
 end
 
 OpieEquipmentSets.eventHandler = CreateFrame("Frame")
